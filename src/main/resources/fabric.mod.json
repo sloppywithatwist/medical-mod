@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "medical",
+	"version": "${version}",
+	"name": "medical",
+	"description": "Realistic health and medical system",
+	"authors": [
+		"sloppywithatwist"
+	],
+	"contact": {
+		"homepage": "https://medical.sloppywithatwist.com/",
+		"sources": "https://github.com/sloppywithatwist/medical-mod"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/medical/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sloppywithatwist.medical.Medical"
+		],
+		"fabric-datagen": [
+			"com.sloppywithatwist.medical.MedicalDataGenerator"
+		],
+		"client": [
+			"com.sloppywithatwist.medical.MedicalClient"
+		]
+	},
+	"mixins": [
+		"medical.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
