@@ -1,4 +1,17 @@
 {
-  "item.medical.bandage": "Bandage",
-  "item.medical.fentanyl": "Fentanyl"
+  "item.medical.bandage" : "Bandage",
+  "item.medical.ethanol" : "Ethanol",
+  "item.medical.blood_bag" : "Blood Bag",
+  "item.medical.ammonia" : "Ammonia",
+  "item.medical.sulfuric_acid" : "Sulfuric Acid",
+  "item.medical.opium_poppy" : "Opium Poppy",
+  "item.medical.wet_opium_poppy" : "Wet Opium Poppy",
+  "item.medical.crude_morphine" : "Crude Morphine",
+  "item.medical.morphine_powder" : "Morphine Powder",
+  "item.medical.fentanyl" : "Fentanyl",
+
+  "block.medical.dried_blood_block" : "Block of Dried Blood",
+  "block.medical.biohazard_waste" : "Biohazard Waste Bin",
+
+  "itemgroup.medical.medical_items" : "Medical Items"
 }

@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "medical:block/dried_blood_block"
+    }
+  }
+}

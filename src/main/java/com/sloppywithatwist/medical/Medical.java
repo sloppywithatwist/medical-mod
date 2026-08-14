@@ -1,5 +1,8 @@
 package com.sloppywithatwist.medical;
 
+import com.sloppywithatwist.medical.block.MedicalBlocks;
+import com.sloppywithatwist.medical.item.MedicalItemGroups;
+import com.sloppywithatwist.medical.item.MedicalItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -20,8 +23,9 @@ public class Medical implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		MedicalItemGroups.registerItemGroups();
 		MedicalItems.registerMedicalItems();
+		MedicalBlocks.registerMedicalBlocks();
 	}
 
 	public static Identifier id(String path) {

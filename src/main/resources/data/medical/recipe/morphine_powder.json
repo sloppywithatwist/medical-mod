@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:smelting",
+  "category" : "misc",
+  "cookingtime" : 100,
+  "experience" : 0.2,
+  "group" : "morphine_powder",
+  "ingredient" : {
+    "item" : "medical:crude_morphine"
+  },
+  "result" : {
+    "id" : "medical:morphine_powder"
+  }
+}

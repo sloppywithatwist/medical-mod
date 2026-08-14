@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "medical:block/biohazard_waste"
+    }
+  }
+}

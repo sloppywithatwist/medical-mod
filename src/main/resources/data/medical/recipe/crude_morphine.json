@@ -1,0 +1,22 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients" : [
+    {
+      "item" : "medical:wet_opium_poppy"
+    },
+    {
+      "item" : "medical:ammonia"
+    },
+    {
+      "item" : "minecraft:charcoal"
+    },
+    {
+      "item" : "medical:ethanol"
+    }
+  ],
+  "result" : {
+    "count" : 1,
+    "id" : "medical:crude_morphine"
+  }
+}
